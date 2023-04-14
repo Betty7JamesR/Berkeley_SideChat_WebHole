@@ -1,6 +1,6 @@
 # The Seed
 
-A refined version of the front-end code used at PKU Helper.
+A refined version of the front-end code used at #PKU Helper#.
 
 **Note that this repository does not belong to any website. Developers of this repository take no responsibility of contents on websites using it.**
 
