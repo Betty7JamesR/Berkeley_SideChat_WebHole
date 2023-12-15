@@ -27,7 +27,7 @@ function PortletSetTag(props) {
                 if(json.error)
                     alert(json.error_msg || json.error);
                 else
-                    alert('提交成功');
+                    alert('Submitted Successfully');
             })
             .catch((e)=>{
                 alert('Error: '+e);
@@ -64,7 +64,7 @@ function PortletSetText(props) {
                 if(json.error)
                     alert(json.error_msg || json.error);
                 else
-                    alert('提交成功');
+                    alert('Submitted Successfully');
             })
             .catch((e)=>{
                 alert('Error: '+e);
@@ -74,7 +74,7 @@ function PortletSetText(props) {
 
     return (
         <div>
-            <button onClick={submit} disabled={loading}>提交</button>
+            <button onClick={submit} disabled={loading}>Submit</button>
             <br />
             <textarea value={content} onChange={(e)=>set_content(e.target.value)} />
         </div>
@@ -104,7 +104,7 @@ function PortletSetExtra(props) {
                 if(json.error)
                     alert(json.error_msg || json.error);
                 else
-                    alert('提交成功');
+                    alert('Submitted Successfully');
             })
             .catch((e)=>{
                 alert('Error: '+e);
@@ -188,15 +188,15 @@ function PortletUnban(props) {
             <button onClick={submit} disabled={loading}>提交</button>
             <label>
                 <input type="checkbox" checked={flag_unfold} onChange={(e)=>set_flag_unfold(e.target.checked)} />
-                取消折叠
+                unfold
             </label>&nbsp;
             <label>
                 <input type="checkbox" checked={flag_undel} onChange={(e)=>set_flag_undel(e.target.checked)} />
-                取消删除
+                cancel the cancelation
             </label>&nbsp;
             <label>
                 <input type="checkbox" checked={flag_unban} onChange={(e)=>set_flag_unban(e.target.checked)} />
-                解禁用户
+                release the banned user
             </label>&nbsp;
             <input value={reason} onChange={(e)=>set_reason(e.target.value)} placeholder="原因" />
         </div>
