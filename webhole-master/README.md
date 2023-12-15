@@ -1,15 +1,12 @@
 # The Seed
 
-A refined version of the front-end code used at #PKU Helper#.
+A refined version of the front-end code used at #Uc Berkeley Helper, or #UC berkeley Sidechat#
 
 **Note that this repository does not belong to any website. Developers of this repository take no responsibility of contents on websites using it.**
 
  We do not provide any kind of tech support. Use at your own risk.
 
 ## Installation
-
-A corresponding backend server is required to host APIs for the front-end code.
-Visit [jimmielin/the-light](https://github.com/jimmielin/the-light) for setup instructions for backend server.
 
 Install `nodejs` and run `npm install` to install requirements.
 
